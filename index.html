@@ -1,0 +1,34 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Banana Programming</title>
+</head>
+<body>
+<LBPScript>
+
+    $moz = true;
+   
+    chap(startTabe($moz, '', () => {
+    	$text = "okay";
+    	chap("text  : ",$text);
+    }));
+    
+    $text2 = "hello";
+    $text3 = "hi";
+    startShart('hello' === $text2 && 'hi' === $text3, () => {
+    	chap("okay");
+    });
+    not(() => {
+    	startShart('hello' !== $text2 && 'hi' !== $text3, () => {
+    	chap("Error");
+        });
+    });
+    
+</LBPScript>
+<div id="output"></div>
+<script src="LBPScript.js"></script>
+
+</body>
+</html>
