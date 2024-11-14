@@ -1,9 +1,3 @@
-### Start
-<pre>
-  <code>
- <'LBPScript'> .... <'/LBPScript'>
-  </code>
-</pre>
 
 ## Create Tabe >
 <pre>
