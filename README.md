@@ -1,6 +1,8 @@
 ### Start
 <pre>
-  '<LBPScript> .... </LBPScript>'
+  <code>
+  <LBPScript> .... </LBPScript>
+  </code>
 </pre>
 
 ## Create Tabe >
